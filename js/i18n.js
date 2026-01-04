@@ -118,7 +118,15 @@ const translations = {
                 free: "FREE"
             },
             button: "Download for macOS",
-            note: "No subscription. No hidden costs. Your data stays on your device."
+            size: "Download size: 42 MB",
+            note: "No subscription. No hidden costs. Your data stays on your device.",
+            install: {
+                title: "Installation Note",
+                text: "Since the app is not signed with an Apple Developer certificate, you'll need to approve it on first launch:",
+                step1: "Extract Dictascript.zip and move Dictascript.app to Applications",
+                step2: "Right-click the app and select \"Open\"",
+                step3: "Click \"Open\" in the dialog that appears"
+            }
         },
         feedback: {
             title: "Help Us Improve",
@@ -260,7 +268,15 @@ const translations = {
                 free: "ZA DARMO"
             },
             button: "Pobierz dla macOS",
-            note: "Bez subskrypcji. Bez ukrytych kosztow. Twoje dane zostaja na urzadzeniu."
+            size: "Rozmiar: 42 MB",
+            note: "Bez subskrypcji. Bez ukrytych kosztow. Twoje dane zostaja na urzadzeniu.",
+            install: {
+                title: "Uwaga dotyczaca instalacji",
+                text: "Poniewaz aplikacja nie jest podpisana certyfikatem Apple Developer, musisz ja zatwierdzic przy pierwszym uruchomieniu:",
+                step1: "Rozpakuj Dictascript.zip i przeniesc Dictascript.app do Aplikacji",
+                step2: "Kliknij prawym przyciskiem na aplikacje i wybierz \"Otworz\"",
+                step3: "Kliknij \"Otworz\" w oknie dialogowym"
+            }
         },
         feedback: {
             title: "Pomoz Nam Sie Rozwijac",
@@ -402,7 +418,15 @@ const translations = {
                 free: "KOSTENLOS"
             },
             button: "Fur macOS Herunterladen",
-            note: "Kein Abonnement. Keine versteckten Kosten. Ihre Daten bleiben auf Ihrem Gerat."
+            size: "Downloadgrosse: 42 MB",
+            note: "Kein Abonnement. Keine versteckten Kosten. Ihre Daten bleiben auf Ihrem Gerat.",
+            install: {
+                title: "Installationshinweis",
+                text: "Da die App nicht mit einem Apple Developer-Zertifikat signiert ist, mussen Sie sie beim ersten Start genehmigen:",
+                step1: "Entpacken Sie Dictascript.zip und verschieben Sie Dictascript.app in Programme",
+                step2: "Rechtsklicken Sie auf die App und wahlen Sie \"Offnen\"",
+                step3: "Klicken Sie im erscheinenden Dialog auf \"Offnen\""
+            }
         },
         feedback: {
             title: "Helfen Sie Uns zu Verbessern",
@@ -544,7 +568,15 @@ const translations = {
                 free: "GRATIS"
             },
             button: "Descargar para macOS",
-            note: "Sin suscripcion. Sin costos ocultos. Tus datos permanecen en tu dispositivo."
+            size: "Tamano de descarga: 42 MB",
+            note: "Sin suscripcion. Sin costos ocultos. Tus datos permanecen en tu dispositivo.",
+            install: {
+                title: "Nota de instalacion",
+                text: "Como la app no esta firmada con un certificado de Apple Developer, deberas aprobarla en el primer inicio:",
+                step1: "Extrae Dictascript.zip y mueve Dictascript.app a Aplicaciones",
+                step2: "Haz clic derecho en la app y selecciona \"Abrir\"",
+                step3: "Haz clic en \"Abrir\" en el dialogo que aparece"
+            }
         },
         feedback: {
             title: "Ayudanos a Mejorar",
@@ -686,7 +718,15 @@ const translations = {
                 free: "GRATUIT"
             },
             button: "Telecharger pour macOS",
-            note: "Sans abonnement. Sans couts caches. Vos donnees restent sur votre appareil."
+            size: "Taille du telechargement: 42 Mo",
+            note: "Sans abonnement. Sans couts caches. Vos donnees restent sur votre appareil.",
+            install: {
+                title: "Note d'installation",
+                text: "Comme l'application n'est pas signee avec un certificat Apple Developer, vous devrez l'approuver au premier lancement:",
+                step1: "Extrayez Dictascript.zip et deplacez Dictascript.app dans Applications",
+                step2: "Faites un clic droit sur l'app et selectionnez \"Ouvrir\"",
+                step3: "Cliquez sur \"Ouvrir\" dans la boite de dialogue"
+            }
         },
         feedback: {
             title: "Aidez-Nous a Nous Ameliorer",

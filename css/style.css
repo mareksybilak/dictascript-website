@@ -859,3 +859,51 @@ a:hover {
         padding: 24px;
     }
 }
+
+/* Download Size */
+.download-size {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+/* Installation Note */
+.install-note {
+    max-width: 500px;
+    margin: 40px auto 0;
+    padding: 24px 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-md);
+    text-align: left;
+}
+
+.install-note h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.install-note > p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.install-note ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.install-note li {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.install-note li:last-child {
+    margin-bottom: 0;
+}

@@ -118,14 +118,15 @@ const translations = {
                 free: "FREE"
             },
             button: "Download for macOS",
-            size: "Download size: 42 MB",
+            size: "Download size: 18 MB",
             note: "No subscription. No hidden costs. Your data stays on your device.",
             install: {
                 title: "Installation Note",
                 text: "Since the app is not signed with an Apple Developer certificate, you'll need to approve it on first launch:",
-                step1: "Extract Dictascript.zip and move Dictascript.app to Applications",
-                step2: "Right-click the app and select \"Open\"",
-                step3: "Click \"Open\" in the dialog that appears"
+                step1: "Open the DMG file and drag Dictascript to Applications",
+                step2: "Open System Settings → Privacy & Security",
+                step3: "Click \"Open Anyway\" next to the Dictascript message",
+                step4: "Click \"Open\" in the confirmation dialog"
             }
         },
         feedback: {
@@ -268,14 +269,15 @@ const translations = {
                 free: "ZA DARMO"
             },
             button: "Pobierz dla macOS",
-            size: "Rozmiar: 42 MB",
+            size: "Rozmiar: 18 MB",
             note: "Bez subskrypcji. Bez ukrytych kosztow. Twoje dane zostaja na urzadzeniu.",
             install: {
                 title: "Uwaga dotyczaca instalacji",
                 text: "Poniewaz aplikacja nie jest podpisana certyfikatem Apple Developer, musisz ja zatwierdzic przy pierwszym uruchomieniu:",
-                step1: "Rozpakuj Dictascript.zip i przeniesc Dictascript.app do Aplikacji",
-                step2: "Kliknij prawym przyciskiem na aplikacje i wybierz \"Otworz\"",
-                step3: "Kliknij \"Otworz\" w oknie dialogowym"
+                step1: "Otworz plik DMG i przeciagnij Dictascript do Aplikacji",
+                step2: "Otworz Ustawienia systemowe → Prywatnosc i ochrona",
+                step3: "Kliknij \"Otworz mimo to\" obok komunikatu o Dictascript",
+                step4: "Kliknij \"Otworz\" w oknie potwierdzenia"
             }
         },
         feedback: {
@@ -418,14 +420,15 @@ const translations = {
                 free: "KOSTENLOS"
             },
             button: "Fur macOS Herunterladen",
-            size: "Downloadgrosse: 42 MB",
+            size: "Downloadgrosse: 18 MB",
             note: "Kein Abonnement. Keine versteckten Kosten. Ihre Daten bleiben auf Ihrem Gerat.",
             install: {
                 title: "Installationshinweis",
                 text: "Da die App nicht mit einem Apple Developer-Zertifikat signiert ist, mussen Sie sie beim ersten Start genehmigen:",
-                step1: "Entpacken Sie Dictascript.zip und verschieben Sie Dictascript.app in Programme",
-                step2: "Rechtsklicken Sie auf die App und wahlen Sie \"Offnen\"",
-                step3: "Klicken Sie im erscheinenden Dialog auf \"Offnen\""
+                step1: "Offnen Sie die DMG-Datei und ziehen Sie Dictascript in Programme",
+                step2: "Offnen Sie Systemeinstellungen → Datenschutz & Sicherheit",
+                step3: "Klicken Sie auf \"Trotzdem offnen\" neben der Dictascript-Meldung",
+                step4: "Klicken Sie im Bestatigungsdialog auf \"Offnen\""
             }
         },
         feedback: {
@@ -568,14 +571,15 @@ const translations = {
                 free: "GRATIS"
             },
             button: "Descargar para macOS",
-            size: "Tamano de descarga: 42 MB",
+            size: "Tamano de descarga: 18 MB",
             note: "Sin suscripcion. Sin costos ocultos. Tus datos permanecen en tu dispositivo.",
             install: {
                 title: "Nota de instalacion",
                 text: "Como la app no esta firmada con un certificado de Apple Developer, deberas aprobarla en el primer inicio:",
-                step1: "Extrae Dictascript.zip y mueve Dictascript.app a Aplicaciones",
-                step2: "Haz clic derecho en la app y selecciona \"Abrir\"",
-                step3: "Haz clic en \"Abrir\" en el dialogo que aparece"
+                step1: "Abre el archivo DMG y arrastra Dictascript a Aplicaciones",
+                step2: "Abre Configuracion del Sistema → Privacidad y Seguridad",
+                step3: "Haz clic en \"Abrir de todos modos\" junto al mensaje de Dictascript",
+                step4: "Haz clic en \"Abrir\" en el dialogo de confirmacion"
             }
         },
         feedback: {
@@ -718,14 +722,15 @@ const translations = {
                 free: "GRATUIT"
             },
             button: "Telecharger pour macOS",
-            size: "Taille du telechargement: 42 Mo",
+            size: "Taille du telechargement: 18 Mo",
             note: "Sans abonnement. Sans couts caches. Vos donnees restent sur votre appareil.",
             install: {
                 title: "Note d'installation",
                 text: "Comme l'application n'est pas signee avec un certificat Apple Developer, vous devrez l'approuver au premier lancement:",
-                step1: "Extrayez Dictascript.zip et deplacez Dictascript.app dans Applications",
-                step2: "Faites un clic droit sur l'app et selectionnez \"Ouvrir\"",
-                step3: "Cliquez sur \"Ouvrir\" dans la boite de dialogue"
+                step1: "Ouvrez le fichier DMG et faites glisser Dictascript dans Applications",
+                step2: "Ouvrez Reglages Systeme → Confidentialite et securite",
+                step3: "Cliquez sur \"Ouvrir quand meme\" a cote du message Dictascript",
+                step4: "Cliquez sur \"Ouvrir\" dans la boite de dialogue de confirmation"
             }
         },
         feedback: {

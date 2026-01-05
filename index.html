@@ -269,6 +269,18 @@
                         <li data-i18n="download.install.step4">Click "Open" in the confirmation dialog</li>
                     </ol>
                 </div>
+
+                <div class="install-terminal">
+                    <h4 data-i18n="download.terminal.title">Quick Install (Terminal)</h4>
+                    <p data-i18n="download.terminal.text">For advanced users - one command installs everything:</p>
+                    <div class="terminal-box">
+                        <code>curl -fsSL https://dictascript.app/install.sh | bash</code>
+                        <button class="copy-btn" onclick="copyToClipboard(this)" data-copy="curl -fsSL https://dictascript.app/install.sh | bash">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                        </button>
+                    </div>
+                    <p class="terminal-note" data-i18n="download.terminal.note">This script downloads, installs, and configures Dictascript automatically.</p>
+                </div>
             </div>
         </div>
     </section>

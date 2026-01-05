@@ -907,3 +907,77 @@ a:hover {
 .install-note li:last-child {
     margin-bottom: 0;
 }
+
+/* Terminal Install */
+.install-terminal {
+    max-width: 500px;
+    margin: 24px auto 0;
+    padding: 24px 32px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: var(--radius-md);
+    text-align: left;
+}
+
+.install-terminal h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.install-terminal > p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.terminal-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #1a1a2e;
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+    overflow-x: auto;
+}
+
+.terminal-box code {
+    flex: 1;
+    font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+    font-size: 13px;
+    color: #00ff88;
+    white-space: nowrap;
+}
+
+.copy-btn {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: var(--radius-sm);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.copy-btn.copied {
+    background: var(--color-success);
+    color: white;
+}
+
+.terminal-note {
+    font-size: 12px !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin-top: 12px;
+    margin-bottom: 0 !important;
+}

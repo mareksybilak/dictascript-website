@@ -248,3 +248,22 @@
     }
 
 })();
+
+// Copy to clipboard function (global)
+function copyToClipboard(button) {
+    const textToCopy = button.dataset.copy;
+
+    navigator.clipboard.writeText(textToCopy).then(() => {
+        // Show success state
+        const originalHTML = button.innerHTML;
+        button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>';
+        button.classList.add('copied');
+
+        setTimeout(() => {
+            button.innerHTML = originalHTML;
+            button.classList.remove('copied');
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+    });
+}

@@ -127,6 +127,11 @@ const translations = {
                 step2: "Open System Settings → Privacy & Security",
                 step3: "Click \"Open Anyway\" next to the Dictascript message",
                 step4: "Click \"Open\" in the confirmation dialog"
+            },
+            terminal: {
+                title: "Quick Install (Terminal)",
+                text: "For advanced users - one command installs everything:",
+                note: "This script downloads, installs, and configures Dictascript automatically."
             }
         },
         feedback: {
@@ -278,6 +283,11 @@ const translations = {
                 step2: "Otworz Ustawienia systemowe → Prywatnosc i ochrona",
                 step3: "Kliknij \"Otworz mimo to\" obok komunikatu o Dictascript",
                 step4: "Kliknij \"Otworz\" w oknie potwierdzenia"
+            },
+            terminal: {
+                title: "Szybka instalacja (Terminal)",
+                text: "Dla zaawansowanych uzytkownikow - jedna komenda instaluje wszystko:",
+                note: "Ten skrypt automatycznie pobiera, instaluje i konfiguruje Dictascript."
             }
         },
         feedback: {
@@ -429,6 +439,11 @@ const translations = {
                 step2: "Offnen Sie Systemeinstellungen → Datenschutz & Sicherheit",
                 step3: "Klicken Sie auf \"Trotzdem offnen\" neben der Dictascript-Meldung",
                 step4: "Klicken Sie im Bestatigungsdialog auf \"Offnen\""
+            },
+            terminal: {
+                title: "Schnellinstallation (Terminal)",
+                text: "Fur fortgeschrittene Benutzer - ein Befehl installiert alles:",
+                note: "Dieses Skript ladt Dictascript automatisch herunter, installiert und konfiguriert es."
             }
         },
         feedback: {
@@ -580,6 +595,11 @@ const translations = {
                 step2: "Abre Configuracion del Sistema → Privacidad y Seguridad",
                 step3: "Haz clic en \"Abrir de todos modos\" junto al mensaje de Dictascript",
                 step4: "Haz clic en \"Abrir\" en el dialogo de confirmacion"
+            },
+            terminal: {
+                title: "Instalacion rapida (Terminal)",
+                text: "Para usuarios avanzados - un comando instala todo:",
+                note: "Este script descarga, instala y configura Dictascript automaticamente."
             }
         },
         feedback: {
@@ -731,6 +751,11 @@ const translations = {
                 step2: "Ouvrez Reglages Systeme → Confidentialite et securite",
                 step3: "Cliquez sur \"Ouvrir quand meme\" a cote du message Dictascript",
                 step4: "Cliquez sur \"Ouvrir\" dans la boite de dialogue de confirmation"
+            },
+            terminal: {
+                title: "Installation rapide (Terminal)",
+                text: "Pour les utilisateurs avances - une commande installe tout:",
+                note: "Ce script telecharge, installe et configure Dictascript automatiquement."
             }
         },
         feedback: {

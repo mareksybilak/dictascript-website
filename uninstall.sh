@@ -1,9 +1,9 @@
 #!/bin/bash
 #
 # Dictascript Uninstaller
-# https://dictascript.app
+# https://dictascript.it
 #
-# Usage: curl -fsSL https://dictascript.app/uninstall.sh | bash
+# Usage: curl -fsSL https://dictascript.it/uninstall.sh | bash
 #
 
 set -e

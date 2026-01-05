@@ -1,9 +1,9 @@
 #!/bin/bash
 #
 # Dictascript Installer
-# https://dictascript.app
+# https://dictascript.it
 #
-# Usage: curl -fsSL https://dictascript.app/install.sh | bash
+# Usage: curl -fsSL https://dictascript.it/install.sh | bash
 #
 
 set -e
@@ -11,7 +11,7 @@ set -e
 # Configuration
 APP_NAME="Dictascript"
 VERSION="1.0.3"
-DMG_URL="https://dictascript.app/downloads/Dictascript-${VERSION}.dmg"
+DMG_URL="https://dictascript.it/downloads/Dictascript-${VERSION}.dmg"
 INSTALL_DIR="/Applications"
 TMP_DIR="/tmp/dictascript-install"
 

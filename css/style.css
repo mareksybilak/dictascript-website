@@ -955,19 +955,22 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
+    gap: 6px;
+    padding: 8px 14px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: var(--radius-sm);
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
     cursor: pointer;
     transition: var(--transition);
 }
 
 .copy-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .copy-btn.copied {

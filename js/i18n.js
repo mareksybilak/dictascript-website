@@ -131,7 +131,8 @@ const translations = {
             terminal: {
                 title: "Quick Install (Terminal)",
                 text: "For advanced users - one command installs everything:",
-                note: "This script downloads, installs, and configures Dictascript automatically."
+                note: "This script downloads, installs, and configures Dictascript automatically.",
+                copy: "Copy"
             }
         },
         feedback: {
@@ -287,7 +288,8 @@ const translations = {
             terminal: {
                 title: "Szybka instalacja (Terminal)",
                 text: "Dla zaawansowanych uzytkownikow - jedna komenda instaluje wszystko:",
-                note: "Ten skrypt automatycznie pobiera, instaluje i konfiguruje Dictascript."
+                note: "Ten skrypt automatycznie pobiera, instaluje i konfiguruje Dictascript.",
+                copy: "Kopiuj"
             }
         },
         feedback: {
@@ -443,7 +445,8 @@ const translations = {
             terminal: {
                 title: "Schnellinstallation (Terminal)",
                 text: "Fur fortgeschrittene Benutzer - ein Befehl installiert alles:",
-                note: "Dieses Skript ladt Dictascript automatisch herunter, installiert und konfiguriert es."
+                note: "Dieses Skript ladt Dictascript automatisch herunter, installiert und konfiguriert es.",
+                copy: "Kopieren"
             }
         },
         feedback: {
@@ -599,7 +602,8 @@ const translations = {
             terminal: {
                 title: "Instalacion rapida (Terminal)",
                 text: "Para usuarios avanzados - un comando instala todo:",
-                note: "Este script descarga, instala y configura Dictascript automaticamente."
+                note: "Este script descarga, instala y configura Dictascript automaticamente.",
+                copy: "Copiar"
             }
         },
         feedback: {
@@ -755,7 +759,8 @@ const translations = {
             terminal: {
                 title: "Installation rapide (Terminal)",
                 text: "Pour les utilisateurs avances - une commande installe tout:",
-                note: "Ce script telecharge, installe et configure Dictascript automatiquement."
+                note: "Ce script telecharge, installe et configure Dictascript automatiquement.",
+                copy: "Copier"
             }
         },
         feedback: {
